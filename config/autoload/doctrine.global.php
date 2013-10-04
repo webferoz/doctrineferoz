@@ -5,9 +5,8 @@ return array(
             'orm_default' => array(
                 'driverClass' => 'Doctrine\DBAL\Driver\PDOMySql\Driver',
                     'params' => array(
-                        'host' => 'localhost',
-                        'port' => '5432',
-                        'dbname' => 'zftutordoctrine',
+                        'host' => 'zf2doctrine-db.my.phpcloud.com',
+                        'dbname' => 'zf2doctrine',
                 ),
             ),
         )
