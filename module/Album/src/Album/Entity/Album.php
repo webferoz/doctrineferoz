@@ -95,7 +95,7 @@ class Album implements InputFilterAwareInterface
         return $this->title;
     }
     
-    **
+    /**
      * Convert the object to an array.
      *
      * @return array
