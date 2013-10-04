@@ -18,7 +18,7 @@ class AlbumController extends AbstractActionController
     public function getEntityManager()
     {
         if (null === $this->em) {
-            $$this->em = $this->getServiceLocator()->get('doctrine.entitymanager.orm_default');
+            $this->em = $this->getServiceLocator()->get('doctrine.entitymanager.orm_default');
         }
         return $this->em;
     } 
