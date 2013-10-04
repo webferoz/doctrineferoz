@@ -2,13 +2,13 @@
  
 namespace Album\Controller;
  
-use Zend\Mvc\Controller\ActionController;
+use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 use Album\Form\AlbumForm;
 use Doctrine\ORM\EntityManager;
 use Album\Entity\Album;
  
-class AlbumController extends ActionController
+class AlbumController extends AbstractActionController
 {
     /**
      * @var Doctrine\ORM\EntityManager
