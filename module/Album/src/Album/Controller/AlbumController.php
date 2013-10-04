@@ -5,7 +5,7 @@ namespace Album\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 use Album\Form\AlbumForm;
-Doctrine\ORM\EntityManager;
+use Doctrine\ORM\EntityManager;
 use Album\Entity\Album;
  
 class AlbumController extends AbstractActionController {
