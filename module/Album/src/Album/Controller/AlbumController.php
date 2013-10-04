@@ -6,6 +6,8 @@ use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 use Album\Form\AlbumForm;
 use DoctrineORMModule\Stdlib\Hydrator\DoctrineEntit;
+use DoctrineORMModule\Form\Annotation\AnnotationBuilder;
+use DoctrineModule\Stdlib\Hydrator\DoctrineObject as DoctrineHydrator;
 use Album\Entity\Album;
  
 class AlbumController extends AbstractActionController
