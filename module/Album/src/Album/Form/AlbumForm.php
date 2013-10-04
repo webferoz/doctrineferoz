@@ -2,8 +2,6 @@
 namespace Album\Form;
 
 use Zend\Form\Form;
-use Zend\InputFilter\InputFilter;
-use Zend\Stdlib\Hydrator\ClassMethods;
 
 class AlbumForm extends Form
 {
@@ -12,9 +10,7 @@ class AlbumForm extends Form
         // we want to ignore the name passed
         parent::__construct('album');
         
-        $this->setAttribute('method', 'post')
-         ->setHydrator(new ClassMethods())
-         ->setInputFilter(new InputFilter());
+        $this->setAttribute('method', 'post');
          
         $this->add(array(
             'name' => 'id',
